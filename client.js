@@ -38,6 +38,7 @@ class App {
                 video.srcObject = stream;
                 video.width = IMAGE_SIZE;
                 video.height = IMAGE_SIZE;
+                video.play();
             });
     }
 
